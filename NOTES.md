@@ -55,7 +55,9 @@ for(int i = 0; i < rows; i++){
     }
     System.out.println();
 }
-​```
+
+
+```
 
 ## Difference — 1D vs 2D
 
