@@ -29,18 +29,24 @@ rows and columns stored in contiguous memory.
 
 - **O(n × m)** — n rows × m columns
 
-## Syntax
-
-​```java
+### 💻 Code Syntax
+```java
 // Declaration
 int[][] arr = new int[3][3];
 
 // Initialization
-int[][] arr = {{1,2,3}, {4,5,6}, {7,8,9}};
+int[][] arr = {{1, 2, 3}, {4, 5, 6}};
 
-// Access
-arr[0][1] = 10;
-System.out.println(arr[0][1]);
+// Accessing an element
+arr[0][1] = 10; 
+
+// Traversal
+for(int i = 0; i < rows; i++) {
+    for(int j = 0; j < cols; j++) {
+        System.out.print(arr[i][j] + " ");
+    }
+    System.out.println();
+}
 
 // Traversal
 for(int i = 0; i < rows; i++){
